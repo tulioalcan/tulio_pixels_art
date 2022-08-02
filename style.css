@@ -26,17 +26,17 @@ div{
 
 #pixel-board {
   border: ;
-  width: 305px;
-  height: 305px;
+  width: 240px;
   display: flex;
   flex-wrap: wrap;    
 }
 
 .pixel {
-  border: solid black;
-  width: 18%; 
-  background-color: white;          
-}
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  }
 
 
 
