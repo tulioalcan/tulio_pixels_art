@@ -1,6 +1,6 @@
 div{
-  width: 100px;
-  height: 100px;
+  width: 71px;
+  height: 71px;
   display: inline-block;
 }
 
@@ -22,6 +22,20 @@ div{
 #container4 {
   background-color: yellow;
   border: 1px solid black;
+}
+
+#pixel-board {
+  border: ;
+  width: 306px;
+  height: 306px;
+  display: flex;
+  flex-wrap: wrap;    
+}
+
+.pixel {
+  border: solid black;
+  width: 18%; 
+  background-color: white;          
 }
 
 
