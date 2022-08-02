@@ -1,0 +1,28 @@
+div{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+#container1 {
+  background-color: black;
+  border: 1px solid black;
+}
+
+#container2 {
+  background-color: red;
+  border: 1px solid black;
+}
+
+#container3 {
+  background-color: green;
+  border: 1px solid black;
+}
+
+#container4 {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+
+
