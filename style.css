@@ -26,8 +26,8 @@ div{
 
 #pixel-board {
   border: ;
-  width: 306px;
-  height: 306px;
+  width: 305px;
+  height: 305px;
   display: flex;
   flex-wrap: wrap;    
 }
