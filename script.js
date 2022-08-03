@@ -12,5 +12,18 @@ function changeColorSelected(color){
   color.target.classList.add('selected')
 }
 colorPalette.addEventListener('click', changeColorSelected)
+
+const squarePixels = document.getElementById('pixel-board');
+function paintPixelsColor(){
+  squarePixels.addEventListener('click', function(paint){
+    let selectedPixel = paint.target
+    let colorSelected = document.querySelector('.selected');
+    if(selectedPixel.classList == 'pixel'){
+      selectedPixel.id = colorSelected.id
+    }
+  }) 
 }
+paintPixelsColor();
+}
+
 
